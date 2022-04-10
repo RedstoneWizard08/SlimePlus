@@ -17,7 +17,7 @@ jobs:
         java-version: 17
 
     - name: Bump version
-      runs: bash bump.sh
+      run: bash bump.sh
     
     - name: Commit & Push changes
       uses: actions-js/push@master
