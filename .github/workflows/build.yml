@@ -45,14 +45,15 @@ jobs:
         name: slimeplus-jars
         path: build/libs/*.jar
 
-    - name: Get version
+    - id: version
+      name: Get version
       run: echo "::set-output name=version::$(cat .version)"
 
     - uses: ncipollo/release-action@v1
       with:
         artifacts: "build/libs/*.jar"
         body: "This is an automated release."
-        name: "ver"
+        name: "v${{ steps.version.outputs.version }}"
         draft: false
         prerelease: false
         token: ${{ secrets.GITHUB_TOKEN }}
