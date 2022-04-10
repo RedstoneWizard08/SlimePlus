@@ -3,7 +3,7 @@ author: RedstoneWizard08
 description: A Slimefun addon that adds lots of new features, inspired by many forge/fabric mods.
 main: net.nosadnile.slimeplus.SlimePlus
 website: https://github.com/RedstoneWizard08/SlimePlus
-version: 0.1.3
+version: 0.1.4
 api-version: 1.18
 depend:
 - Slimefun
