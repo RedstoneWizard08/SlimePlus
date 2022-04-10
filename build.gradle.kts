@@ -42,7 +42,7 @@ dependencies {
 }
 
 group = "net.nosadnile"
-version = "0.1.2"
+version = "0.1.3"
 description = "SlimePlus"
 
 java {
