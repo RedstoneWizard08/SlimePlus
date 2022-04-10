@@ -41,5 +41,4 @@ public class SlimePlus extends JavaPlugin implements SlimefunAddon {
     public JavaPlugin getJavaPlugin() {
         return this;
     }
-
 }
