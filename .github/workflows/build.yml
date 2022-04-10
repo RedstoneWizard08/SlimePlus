@@ -55,5 +55,6 @@ jobs:
         body: "This is an automated release."
         name: "v${{ steps.version.outputs.version }}"
         draft: false
+        tag: "v${{ steps.version.outputs.version }}"
         prerelease: false
         token: ${{ secrets.GITHUB_TOKEN }}
