@@ -4,6 +4,6 @@ import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
 
 public class ItemController {
     public static void registerAllItems(SlimefunAddon ADDON) {
-        TestingItem.register(ADDON);
+        TestingItem.TESTING_ITEM.register(ADDON);
     }
 }
